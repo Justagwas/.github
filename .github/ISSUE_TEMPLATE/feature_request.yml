@@ -1,0 +1,35 @@
+name: Feature proposal
+description: Propose an improvement to an existing project.
+title: "[Feature]: "
+labels: []
+assignees:
+  - Justagwas
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What limitation or user need should this proposal address?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Proposed outcome
+      description: Describe what the user should be able to do or experience.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe existing workarounds or other approaches you considered.
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Include examples, mockups, compatibility considerations, or related references when useful.
+    validations:
+      required: false
